@@ -1,0 +1,20 @@
+
+for ( var i = 1; i <= 1000; i++ )
+{
+  if ( i%5 === 0 && i%7 === 0 )
+  {
+    console.log( i + " hurray" );
+  }
+  else if ( i%3 === 0 ) 
+  {
+    console.log(i+ " rup" );
+  }
+  else if ( i%5 === 0 ) 
+  {
+    console.log(i+ " hip" );
+  }
+  else
+  {
+    console.log(i);
+  }
+}
